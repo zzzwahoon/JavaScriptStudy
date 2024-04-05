@@ -1,5 +1,5 @@
 // 함수의 정의
-// 함수 선언문
+// 1. 함수 선언문
 function add1 (a, b){
   return a + b;
 }
@@ -8,14 +8,14 @@ function add1 (a, b){
 const result = add1(1,2);
 console.log(result); // 3
 
-// 함수 표현식
+// 2. 함수 표현식
 const add2 = function (a, b) {
   return a + b;
 };
 const result2 = add2(1, 2);
 console.log(result2);
 
-// 화살표 함수
+// 3. 화살표 함수
 const add3 = (a, b) => a + b;
 const result3 = add3(1, 2);
 console.log(result3);
